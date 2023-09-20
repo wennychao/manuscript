@@ -15,5 +15,6 @@ h3 {
     margin-bottom:auto; }
 
 #response {
-    color:darkolivegreen
+    color:darkolivegreen;
+    font-family: 'Courier New', Courier, monospace;
 }
