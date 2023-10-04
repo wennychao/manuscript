@@ -69,18 +69,26 @@ div.intro {
 }
 
 div.light {
-  margin-left: 20%;
-  margin-right: 30%;
+  margin-left: 15%;
+  margin-right: 35%;
+  background-color: #d4ecff;
+  padding: 30px;  
 }
 
 div.vaporwave {
-  margin-left: 20%;
-  margin-right: 30%;
+  margin-top: 20px;
+  margin-left: 35%;
+  margin-right: 15%;
+  background-color: #f7e2fd;
+  padding: 30px;  
 }
 
 div.bisexual {
+  margin-top: 20px;
   margin-left: 20%;
-  margin-right: 30%;
+  margin-right: 20%;
+  background-color: #ebe8ff;
+  padding: 30px;  
 }
 
 div.end {
@@ -109,8 +117,11 @@ blockquote {
 }
 
 div.res {
-margin-top: 10%;
-background-color: #e7f2ff;
+margin-top: 5%;
+animation-name: BackgroundColorPalette;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
 margin-left: 20%;
 margin-right: 20%;
 padding: 40px;
@@ -152,19 +163,19 @@ body {
 }
 @keyframes BackgroundColorPalette {
   0% {
-    background-color: #8f94ff;
+    background-color: #e3dfff;
   }
   25% {
-    background-color: #91bbff;
+    background-color: #dfebfe;
   }
   50% {
-    background-color: #9ce3ff;
+    background-color: #e0f5fd;
   }
   75% {
-    background-color: #98b7ff;
+    background-color: #e5edff;
   }
   100% {
-    background-color: #44b1ff;
+    background-color: #f9e1f7;
   }
 } 
 
