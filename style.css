@@ -1,85 +1,179 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,600&family=DM+Serif+Display&family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,600&family=DM+Serif+Display&family=Source+Sans+3:ital@0;1&display=swap');
 
-body{
-    background: rgb(245, 245, 247);
-  }
 
+@keyframes GradientColorPalette {
+    0% {
+      color: #eaadda;
+    }
+    25% {
+      color: #8f94ff;
+    }
+    50% {
+      color: #91bbff;
+    }
+    75% {
+      color: #addeea;
+    }
+    100% {
+      color: #caabff;
+    }
+  }  
+span.big{
+    font-size: 165px;
+    animation-name: GradientColorPalette;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 h1 {
     font-family: 'DM Serif Display', serif;
     font-weight: 300;
-    font-size: 60px;
-    color: #444eff;
+    font-size: 50px;
+    margin-top: 5%;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 h2 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 40px;
     font-family: 'DM Serif Display', serif;
-    font-size: 28px;
-    margin-left: 26%;
-    color: #444eff;
+  }
+  
+.author {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #3b3b3b;
 }
 
 p {
     font-family: 'Abhaya Libre', serif;
-    margin-left: 26%;
-    margin-right: 26%;
-    color: #444eff;
-}
-
-p:hover{
-    animation-name: GradientColorPalette;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-} 
-#author {
-    font-family: 'Source Sans 3', sans-serif;
-    text-align: center;
-    font-size: 16px;
-    margin-top: -10px;
-    color: #444eff;
-}
-
-.response {
-    font-family: 'Source Sans 3', sans-serif;
-    color: #444eff;
-}
-
-hr.solid {
-    border-top: 2px solid #444eff;
-    width: 691px;
+    font-size: 22px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+div.intro {
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+div.light {
+  margin-left: 20%;
+  margin-right: 30%;
+}
+
+div.vaporwave {
+  margin-left: 20%;
+  margin-right: 30%;
+}
+
+div.bisexual {
+  margin-left: 20%;
+  margin-right: 30%;
+}
+
+div.end {
+  margin-left: 25%;
+  margin-right: 30%;
+}
+span.question {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+ul {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+blockquote {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 28px;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+ 
+}
+
+div.res {
+margin-top: 10%;
+background-color: #e7f2ff;
+margin-left: 20%;
+margin-right: 20%;
+padding: 40px;
+}
+
+span.title_r {
+  font-size: 30px;
+  font-family: 'DM Serif Display', serif;
+}
+
+p.response {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 20px;
+  color: #282828;
+}
+
+hr.solid1 {
+    border-top: 1px solid #5d5d5d;
+    margin-left: 41%;
+    margin-right: 41%;
+    margin-top: -28px;
+    margin-bottom:30px;
   }
 
-  a:link {
-    color: #63bef7;
-    text-decoration: none;
-    }
-  a:hover {
-    border-bottom: 1px solid;
-    color: #db86d5;
+hr.solid {
+    border-top: 2px solid #5d5d5d;
+    margin-left: 41%;
+    margin-right: 41%;
+    margin-top: -28px;
+    margin-bottom:30px;
   }
-  a:visited {
-    color: #444eff;
-    text-decoration: none;
+
+body {
+  background-color: white;
+  /*animation-name: BackgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+}
+@keyframes BackgroundColorPalette {
+  0% {
+    background-color: #8f94ff;
   }
-@keyframes GradientColorPalette {
-    0% {
-        color: #535bfd;
-    }
-    25% {
-        color: #868bec;
-    }
-    50% {
-        color: #8ea6e3;
-    }
-    75% {
-      color: #9caacf;
-    }
-    100% {
-      color: #b4b7c0;
-    }
+  25% {
+    background-color: #91bbff;
+  }
+  50% {
+    background-color: #9ce3ff;
+  }
+  75% {
+    background-color: #98b7ff;
+  }
+  100% {
+    background-color: #44b1ff;
+  }
+} 
+
+a:link {
+  color: black;
+  }
+a:hover {
+  color: #db86d5;
+}
+a:visited {
+  color: black;
 }
